@@ -514,10 +514,10 @@
             // appNotifyIcon
             // 
             this.appNotifyIcon.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.appNotifyIcon.BalloonTipText = "Net Speed Monitor is running in tray.";
-            this.appNotifyIcon.BalloonTipTitle = "Net Speed Monitor";
+            this.appNotifyIcon.BalloonTipText = "Net Speed Widget is running in tray.";
+            this.appNotifyIcon.BalloonTipTitle = "Net Speed Widget";
             this.appNotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("appNotifyIcon.Icon")));
-            this.appNotifyIcon.Text = "Net Speed Monitor";
+            this.appNotifyIcon.Text = "Net Speed Widget";
             this.appNotifyIcon.Visible = true;
             this.appNotifyIcon.BalloonTipClicked += new System.EventHandler(this.trayIcon_DoubleClick);
             this.appNotifyIcon.DoubleClick += new System.EventHandler(this.trayIcon_DoubleClick);
@@ -534,7 +534,7 @@
             this.appHeaderTitleBar.Name = "appHeaderTitleBar";
             this.appHeaderTitleBar.Size = new System.Drawing.Size(371, 15);
             this.appHeaderTitleBar.TabIndex = 33;
-            this.appHeaderTitleBar.Text = "Net Speed Monitor v4.0";
+            this.appHeaderTitleBar.Text = "Net Speed Widget";
             this.appHeaderTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.appHeaderTitleBar_MouseDown);
             this.appHeaderTitleBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.appHeaderTitleBar_MouseMove);
             this.appHeaderTitleBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.appHeaderTitleBar_MouseUp);
@@ -679,7 +679,7 @@
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Net Speed Monitor";
+            this.Text = "Net Speed Widget";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_FormLoading);

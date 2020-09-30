@@ -67,16 +67,16 @@ namespace NetSpeedWidget
 
         private void SystemEvents_PowerModeChanged(object sender, PowerModeChangedEventArgs e)
         {
-            switch (e.Mode)
+           // switch (e.Mode)
             {
                 //case PowerModes.Resume:
                 //    break;
                 //case PowerModes.StatusChange:
                 //    break;
                 //Hack: Some system returns garbage in performance counter after resuming from sleep
-                case PowerModes.Suspend:
-                    System.Threading.Thread.Sleep(5000);
-                    break;
+                //case PowerModes.Suspend:
+                //    System.Threading.Thread.Sleep(5000);
+                //    break;
                 //default:
                 //    break;
             }
@@ -364,7 +364,7 @@ namespace NetSpeedWidget
             _ = MessageBox.Show(Properties.Settings.Default.AppName
                                 + " "
                                 + Properties.Settings.Default.AppVersion
-                                + "\nDeveloper: Raj",
+                                + "\nDeveloper: LinWin Softwares",
                                 "Information",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Information);
